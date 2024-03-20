@@ -1,0 +1,168 @@
+.header-full {
+  display: flex;
+  width: 80%;
+  height: 60px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: flex;
+  margin-right: 20px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+  margin: 0 10px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+  margin: 0 0 0 0px;
+  width: 35%;
+}
+
+.search-box {
+  line-height: 1.4;
+  font-size: 15px;
+  background-color: #f2f3f6;
+  height: 40px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: #212124;
+}
+
+.chat-btn {
+  width: 25%;
+  height: 40px;
+  color: #212124;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #dcdee3;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.chat-btn:hover {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.main-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  background-color: rgb(255 249 217);
+}
+
+.main-page-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-page-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100%;
+  width: 34.5%;
+}
+.header-content {
+  line-height: 1.32;
+  font-size: 18px;
+  color: #4d5159;
+  font-style: normal;
+  margin-right: 1.2rem;
+  font-weight: 600;
+}
+
+.header-content:hover {
+  cursor: pointer;
+  color: #9297a0;
+}
+.main-page-title {
+  font-size: 27px;
+  line-height: 1.3;
+}
+h1 {
+  margin: 12px auto;
+}
+.main-page-subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #7c7c7c;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.fixed-google-play {
+  display: inline-block;
+  fill: #fff;
+  vertical-align: middle;
+  display: inline-block;
+}
+.fixed-apple-store {
+  display: inline-block;
+  fill: #fff;
+  vertical-align: middle;
+  display: inline-block;
+}
+.fixed-download-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 8px;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 28px;
+}
+.fixed-download-button {
+  width: 180px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #ff6f0f;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 14px 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 1rem;
+}
+.main-page-right {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  width: 50%;
+}
+#main-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
